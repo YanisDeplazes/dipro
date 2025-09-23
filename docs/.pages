@@ -1,2 +1,6 @@
 nav:
-  - Home: index.md
+
+- Home: index.md
+- Briefing: /briefing/
+- Journal: /journal/
+- Planung: /planung/

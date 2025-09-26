@@ -3,7 +3,7 @@ name: Sprint Review
 about: Track completed work, achievements, and goals for the sprint.
 title: "Sprint <number> – Review"
 labels: ["review", "sprint"]
-assignees: ""
+assignees: "yanisdeplazes"
 ---
 
 ## User Story

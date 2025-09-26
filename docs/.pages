@@ -1,2 +1,12 @@
 nav:
   - Home: index.md
+  - Briefing: /briefing/
+  - Journal: /journal/
+  - Projektplanung: /projektplanung/
+  - Scrum:
+      - Product Vision: scrum/vision
+      - Definition of Done: scrum/dod
+      - Abgabe:
+          - Sprint Review: scrum/abgabe/review
+          - Retrospektive: scrum/abgabe/retrospektive
+          - Sprint-Planung: scrum/abgabe/planung

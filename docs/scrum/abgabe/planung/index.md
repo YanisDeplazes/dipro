@@ -1,5 +1,9 @@
 # Sprint-Planung
 
+Die Sprint Planung ist hier zu finden: [GitHub Projekt](https://github.com/users/YanisDeplazes/projects/4)
+
+Die Projektplanung ist hier zu finden: [Projektplanung](../../../planung/)
+
 ## Was soll das?
 
 Basierend auf der Review und der Retrospektive werden Projektziele evtl. angepasst und neue Ziele für den kommenden Sprint definiert. Konkret werden dann die Tasks für die kommende Woche geplant.

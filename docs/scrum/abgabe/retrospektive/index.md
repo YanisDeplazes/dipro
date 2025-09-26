@@ -1,5 +1,7 @@
 # Retrospektive
 
+Ein Template der Retrospektive ist hier zu finden: [Retrospektive](https://docs.google.com/document/d/1SztcbsdvoZ1SxfN3wVY_Ydk2py2_boUtrG86K0_HM2s/edit?usp=sharing)
+
 ## Was soll das?
 
 Dies ist eine gemeinsame Betrachtung der Arbeitsweise und der Kommunikation. Was lief gut, was lief nicht gut, was muss sich ändern?

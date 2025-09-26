@@ -1,5 +1,7 @@
 # Sprint Review
 
+Ein Template des Sprint Reviews ist hier zu finden: [Reviews](https://docs.google.com/document/d/1IwHcicVxbThmjwIBwfhHy_BT_bcIuYPqlhg7n6XHD6Y/edit?usp=sharing)
+
 ## Was soll das?
 
 Dies ist eine gemeinsame Betrachtung der Ergebnisse des vergangenen Sprints (immer sortiert nach den Zielen und Tasks der vergangenen Planung). Arbeit wird wertgeschätzt, es werden Feedback und Fragen gesammelt. Es findet ein Abgleich mit den Zielen und Aufgaben statt.

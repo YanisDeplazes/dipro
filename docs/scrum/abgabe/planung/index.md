@@ -2,7 +2,7 @@
 
 Die Sprint Planung ist hier zu finden: [GitHub Projekt](https://github.com/users/YanisDeplazes/projects/4)
 
-Die Projektplanung ist hier zu finden: [Projektplanung](../../../planung/)
+Die Projektplanung ist hier zu finden: [Projektplanung](../../../projektplanung/)
 
 ## Was soll das?
 

@@ -1,6 +1,8 @@
-# Planung
+# Projektplanung
 
 Die Semesterplanung ist hier zu finden: [Planung](https://docs.google.com/spreadsheets/d/1vTq-kyXTX69z7jj-cEuCTQKn7yCqUy0AhJ6t35pPkQw/edit?gid=0#gid=0)
+
+Die Sprint Planung ist hier zu finden: [GitHub Projekt](https://github.com/users/YanisDeplazes/projects/4)
 
 ## KW38 Intro Woche
 

@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           submodules: recursive
@@ -20,9 +20,9 @@ jobs:
         with:
           python-version: 3.9
 
-      - name: Upgrade pip and install dependencies
+      - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
+          sudo apt update
           pip install -r requirements.txt
 
       - name: Build MkDocs site
@@ -36,5 +36,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          # Optional: specify branch if needed
-          # publish_branch: gh-pages

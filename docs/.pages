@@ -3,6 +3,7 @@ nav:
   - Briefing: /briefing/
   - Journal: /journal/
   - Projektplanung: /projektplanung/
+  - Materialliste: /materialliste/
   - Scrum:
       - Product Vision: scrum/vision
       - Definition of Done: scrum/dod

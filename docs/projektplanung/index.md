@@ -91,6 +91,6 @@ Die Sprint Planung ist hier zu finden: [GitHub Projekt](https://github.com/users
 
 ## KW45
 
-| Date                  | Event    | Duration |
-| --------------------- | -------- | -------- |
-| 4. November, Dienstag | Stand-up | Deadline |
+| Date                  | Event           | Duration |
+| --------------------- | --------------- | -------- |
+| 4. November, Dienstag | Endpräsentation | Deadline |

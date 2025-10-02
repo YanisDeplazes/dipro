@@ -37,3 +37,7 @@ Anbei die wichtigsten Infos für den Laser Cutter in Rotkreuz:
 ## KW40 Room inspection / first Test with projection
 
 Die Testteile, die während der Einführung des Laserschneiders hergestellt wurden, wurden zu Hause mit einem Projektor getestet. Es funktioniert recht gut; die Position spielt keine große Rolle, solange es gut abgebildet ist, und es deckt bis zu 180 Grad Drehung im Raum ab. Daher wurde beschlossen, einen Projektor für den Hintergrund zu verwenden, damit mehr Platz im Raum genutzt werden kann.
+
+## KW40 Room Organization
+
+Für die Installation wurde im DFK ein Raum organisiert, der jedoch nicht verschlossen werden kann. Es wird noch darüber diskutiert, ob in Rotkreuz ein Raum zur Verfügung gestellt werden kann. Der Raum im DFK ist ideal, und die Objekte könnten mit einer Leiter aufgehängt werden.

@@ -4,6 +4,7 @@ nav:
   - Journal: /journal/
   - Projektplanung: /projektplanung/
   - Materialliste: /materialliste/
+  - Media: /media/
   - Scrum:
       - Product Vision: scrum/vision
       - Definition of Done: scrum/dod

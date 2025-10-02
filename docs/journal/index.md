@@ -41,3 +41,7 @@ Die Testteile, die während der Einführung des Laserschneiders hergestellt wurd
 ## KW40 Room Organization
 
 Für die Installation wurde im DFK ein Raum organisiert, der jedoch nicht verschlossen werden kann. Es wird noch darüber diskutiert, ob in Rotkreuz ein Raum zur Verfügung gestellt werden kann. Der Raum im DFK ist ideal, und die Objekte könnten mit einer Leiter aufgehängt werden.
+
+## KW40 Preparation on gather data #12
+
+To begin collecting media, I created a dedicated folder and a reference list in the project documentation. This setup allows me to systematically gather, link, and review the collected media for deeper insights during future development phases.

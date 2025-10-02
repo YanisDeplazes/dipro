@@ -33,3 +33,7 @@ Anbei die wichtigsten Infos für den Laser Cutter in Rotkreuz:
 
 - [Werkstätten & Maker Space ](https://mycampus.hslu.ch/de-ch/info-i/infos-und-dokumente/werkstatt/)
 - [Arbeitsplätze Reservation](https://mycampus.hslu.ch/de-ch/raum-i/arbeitsplaetze/)
+
+## KW40 Room inspection / first Test with projection
+
+Die Testteile, die während der Einführung des Laserschneiders hergestellt wurden, wurden zu Hause mit einem Projektor getestet. Es funktioniert recht gut; die Position spielt keine große Rolle, solange es gut abgebildet ist, und es deckt bis zu 180 Grad Drehung im Raum ab. Daher wurde beschlossen, einen Projektor für den Hintergrund zu verwenden, damit mehr Platz im Raum genutzt werden kann.

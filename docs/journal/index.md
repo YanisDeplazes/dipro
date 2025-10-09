@@ -52,14 +52,14 @@ Für das Projekt habe ich den Raum 275 im 745 Reserviert. Den Aufbau findet am 2
 
 ## KW41 Prepare and Laser Cut Forms #34
 
-Heute habe ich mit einem [Tool](../assets/images/laser/finalize/calculator.html) den Schwerpunkt (CG) meiner Objekte berechnet, um die Position der Aufhängelöcher zu bestimmen.  
+Heute habe ich mit einem [Tool](../assets/images/laser/finalized/calculator.html) den Schwerpunkt (CG) meiner Objekte berechnet, um die Position der Aufhängelöcher zu bestimmen.  
 Alle SVGs sind nun auf das jeweilige Format vorbereitet.  
 Offen bleibt noch, wie groß die Löcher werden und ob ich sie bohre oder laserschneide.
 
 3 von 11 Beispiele
 
-![1](../assets/images/laser/finalize/1.png)
-![2](../assets/images/laser/finalize/2.png)
-![3](../assets/images/laser/finalize/3.png)
+![1](../assets/images/laser/finalized/1.png)
+![2](../assets/images/laser/finalized/2.png)
+![3](../assets/images/laser/finalized/3.png)
 
 Da jedoch leider das Material noch nicht da ist konnte ich es noch nicht laser cutten. Das wäre spätestens nächste Woche dann der Fall.

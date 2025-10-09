@@ -45,3 +45,7 @@ Für die Installation wurde im DFK ein Raum organisiert, der jedoch nicht versch
 ## KW40 Preparation on gather data #12
 
 To begin collecting media, I created a dedicated folder and a reference list in the project documentation. This setup allows me to systematically gather, link, and review the collected media for deeper insights during future development phases.
+
+## KW41 Finalize Room Organization
+
+Für das Projekt habe ich den Raum 275 im 745 Reserviert. Den Aufbau findet am 23.10 statt und Abbau am 5.11, für dies wird eine Hebelbühne gebraucht.

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SVG CG + Hole Safe Zone</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js"></script>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        color: #000;
+        font-family: monospace;
+      }
+      #controls {
+        padding: 10px;
+        text-align: center;
+        background: #f0f0f0;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        border-bottom: 1px solid #ccc;
+      }
+      #info {
+        padding: 10px;
+        font-size: 14px;
+        background: #fafafa;
+        border-top: 1px solid #ccc;
+        white-space: pre;
+        max-height: 200px;
+        overflow-y: auto;
+      }
+      canvas {
+        width: 100%;
+        height: calc(100% - 150px);
+        display: block;
+        background: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="controls">
+      <input type="file" id="fileInput" accept=".svg" multiple />
+      <button onclick="analyze()">Calculate CG + Hole Zones</button>
+    </div>
+    <canvas id="myCanvas" resize></canvas>
+    <div id="info">Load SVGs to begin.</div>
+
+    <script>
+      paper.setup("myCanvas");
+      let importedItems = [];
+      const materialThickness = 3; // mm
+      const holeDiameter = 3.5; // mm (adjustable for your split rings)
+      const minEdgeDist = 2 * materialThickness; // safe distance
+
+      document
+        .getElementById("fileInput")
+        .addEventListener("change", function (e) {
+          let files = Array.from(e.target.files);
+          if (!files.length) return;
+          importedItems.forEach((i) => i.remove());
+          importedItems = [];
+          let yOffset = 0;
+
+          files.forEach((file) => {
+            let reader = new FileReader();
+            reader.onload = function (event) {
+              let item = paper.project.importSVG(event.target.result, {
+                expandShapes: true,
+                onLoad: function (svgItem) {
+                  let viewWidth = paper.view.bounds.width * 0.8;
+                  let scale = viewWidth / svgItem.bounds.width;
+                  svgItem.scale(scale);
+                  svgItem.position = new paper.Point(
+                    paper.view.center.x,
+                    svgItem.bounds.height / 2 + yOffset
+                  );
+                  yOffset += svgItem.bounds.height + 20;
+                  importedItems.push(svgItem);
+                },
+              });
+            };
+            reader.readAsText(file);
+          });
+        });
+
+      function polygonCentroid(points) {
+        let area = 0,
+          cx = 0,
+          cy = 0;
+        for (let i = 0; i < points.length; i++) {
+          let j = (i + 1) % points.length;
+          let cross = points[i].x * points[j].y - points[j].x * points[i].y;
+          area += cross;
+          cx += (points[i].x + points[j].x) * cross;
+          cy += (points[i].y + points[j].y) * cross;
+        }
+        area *= 0.5;
+        cx /= 6 * area;
+        cy /= 6 * area;
+        return new paper.Point(cx, cy);
+      }
+
+      function analyze() {
+        if (!importedItems.length) return alert("Load SVGs first!");
+        paper.project.activeLayer.children.forEach((c) => {
+          if (c.data && c.data.isCG) c.remove();
+        });
+
+        let infoText = "";
+        importedItems.forEach((item, index) => {
+          let allPaths = item.getItems({ class: paper.Path });
+          let totalArea = 0,
+            weightedCx = 0,
+            weightedCy = 0;
+          allPaths.forEach((path) => {
+            if (!path.closed) return;
+            let pts = path.segments.map((s) => s.point);
+            if (pts.length < 3) return;
+            let centroid = polygonCentroid(pts);
+            let area = path.area;
+            totalArea += area;
+            weightedCx += centroid.x * area;
+            weightedCy += centroid.y * area;
+          });
+          if (totalArea === 0) return;
+          let cg = new paper.Point(
+            weightedCx / totalArea,
+            weightedCy / totalArea
+          );
+
+          // Draw CG line + dot
+          new paper.Path.Line({
+            from: new paper.Point(cg.x, item.bounds.top),
+            to: new paper.Point(cg.x, item.bounds.bottom),
+            strokeColor: "red",
+            dashArray: [6, 4],
+            data: { isCG: true },
+          });
+          new paper.Path.Circle({
+            center: cg,
+            radius: 5,
+            fillColor: "red",
+            strokeColor: "black",
+            data: { isCG: true },
+          });
+
+          // Draw hole safe zone
+          let safeRect = new paper.Path.Rectangle({
+            point: [
+              cg.x - holeDiameter / 2 - minEdgeDist,
+              cg.y - holeDiameter / 2 - minEdgeDist,
+            ],
+            size: [
+              holeDiameter + minEdgeDist * 2,
+              holeDiameter + minEdgeDist * 2,
+            ],
+            strokeColor: "blue",
+            strokeWidth: 1,
+            dashArray: [4, 2],
+            fillColor: new paper.Color(0, 0, 1, 0.1),
+            data: { isCG: true },
+          });
+
+          infoText += `SVG ${index + 1} CG: X ${cg.x.toFixed(
+            1
+          )} px, Y ${cg.y.toFixed(1)} px, Total Area: ${totalArea.toFixed(
+            1
+          )} px²\n`;
+          infoText += `Hole: diameter ${holeDiameter} mm, safe margin ${minEdgeDist} mm\n`;
+        });
+
+        document.getElementById("info").textContent = infoText;
+        paper.view.draw();
+      }
+    </script>
+  </body>
+</html>

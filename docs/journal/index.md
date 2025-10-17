@@ -63,3 +63,22 @@ Offen bleibt noch, wie groß die Löcher werden und ob ich sie bohre oder lasers
 ![3](../assets/images/laser/finalized/3.png)
 
 Da jedoch leider das Material noch nicht da ist konnte ich es noch nicht laser cutten. Das wäre spätestens nächste Woche dann der Fall.
+
+## KW42 Zwischenpräsentation #35
+
+Heute habe ich die **Zwischenpräsentation** vorbereitet und den aktuellen Stand meines Projekts den Stakeholdern vorgestellt: [Präsentation ansehen](https://docs.google.com/presentation/d/1ELD9BH6NSSBnpdpugg4SJphPltaBJgH4Ccs251Yx5fE/edit?usp=sharing)
+
+Das Feedback war hilfreich:
+
+- Weniger Fokus auf Arduino, mehr auf das eigentliche Konzept.
+- Plan B überlegen, falls kein Material geliefert wird.
+- Eine klare Linie ziehen, damit die Darstellung der Palästinenser menschlich bleibt und nicht politisch vereinnahmt wird.
+
+**Reflexion:**  
+Es zeigt sich, dass ich die **konzeptionelle Ebene stärker betonen** muss, um den Stakeholdern ein klareres Bild zu geben. Außerdem muss ich **alternative Szenarien planen**, falls Materiallieferungen ausbleiben. Die ethische Dimension des Projekts ist für mich neu, aber wichtig: die Darstellung soll **Respekt und Menschlichkeit** vermitteln, ohne politische Instrumentalisierung.
+
+**Nächste Schritte:**
+
+- Präsentation überarbeiten und den Arduino-Fokus reduzieren.
+- Plan B entwickeln für Materialmangel.
+- Überlegen, wie ich die menschliche Darstellung visuell konsistent halten kann.

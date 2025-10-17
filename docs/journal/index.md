@@ -95,3 +95,13 @@ Es zeigt sich, dass ich die **konzeptionelle Ebene stärker betonen** muss, um d
 | Markets         | Streets, marketplaces; vendors, pedestrians; flickering lights, floating objects           | Market chatter, footsteps, ambient sounds                | Energy, chaos, vibrancy; daily life                               | Click stalls/objects for micro-stories; mirror reflections          | Layer sounds and light flickers to create sensory collage               | Highlight urban human experience; avoid political/external ideological bias            |
 | Memory & Radio  | Archives, personal spaces; photos, objects; reflections and light fragments                | Voices, radio tones, crackling recordings                | Intimate memory space; fading in/out; personal recollection       | Click objects to trigger audio; mirror shards for reflections       | Dim light reflections; layered overlapping voices                       | Focus on memory and human narratives; avoid politicization; respect local voices       |
 | Theatre         | Small stages, theatrical spaces; actors/performers; light and mirror effects               | Dialogue, ambient stage sounds                           | Visitors activate performance fragments; interactive storytelling | Movement triggers performance/audio; mirror shards act as stages    | Mirrors act as small stages; light mimics stage presence                | Emphasize art and human expression; avoid political or Western-centric framing         |
+
+## KW42 – Einstieg in TouchDesigner & erste Projektion
+
+Heute habe ich mich erstmals mit **TouchDesigner** beschäftigt, um die Projektion für meine Spiegel-Scherben vorzubereiten.  
+Ich habe mehrere **Movie File In TOPs** (Video + Masken) erstellt, sie über **Composite** und **Transform TOPs** kombiniert und anschließend alles in einem **Null TOP** zusammengeführt.
+
+Danach habe ich gelernt, wie man die Ausgabe über eine **Perform Window** auf den **Projektor** legt.  
+So konnte ich den grundlegenden Ablauf verstehen – von der Videoquelle bis zur sichtbaren Projektion.
+
+Nächster Schritt: mehrere Scherben ansteuern und erste Interaktionen testen.

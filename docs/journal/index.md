@@ -113,3 +113,11 @@ Heute wurden die Spiegel mit dem Lasercutter zugeschnitten. Alles hat gut funkti
 ![Lasercutter](../assets/images/laser/1.gif)
 
 ![Test](../assets/images/laser/2.gif)
+
+## KW43 - erste Montage
+
+Die Formen wurden für das Bohren vorbereitet. An einem Teststück habe ich ausprobiert, ob das Bohren in die Spiegel funktioniert – es hat funktioniert. Ich habe die Löcher entlang der zuvor berechneten Schwerkraftlinie gebohrt, darauf geachtet, dass alles sauber aussieht, und die Ringe eingesetzt.
+
+Mit den Angelschnüren und den drehbaren Teilen habe ich die Komponenten miteinander verbunden. Wie genau die beiden Spiegelstücke miteinander verbunden werden, ist noch offen; ich könnte je nach Aufwand und Beständigkeit Kleber oder Klebeband verwenden.
+
+Am Wochenende werden basierend auf Tests und Optimierungen noch kleinere Anpassungen vorgenommen, damit die Installation nächste Woche richtig aufgebaut werden kann.

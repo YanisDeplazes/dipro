@@ -105,3 +105,11 @@ Danach habe ich gelernt, wie man die Ausgabe über eine **Perform Window** auf d
 So konnte ich den grundlegenden Ablauf verstehen – von der Videoquelle bis zur sichtbaren Projektion.
 
 Nächster Schritt: mehrere Scherben ansteuern und erste Interaktionen testen.
+
+## KW43 - Lasercutten
+
+Heute wurden die Spiegel mit dem Lasercutter zugeschnitten. Alles hat gut funktioniert, und die Spiegel wurden direkt zu Hause mit einer Testsequenz ausprobiert. Bin sehr zufrieden mit dem Ergebnis.
+
+![Lasercutter](../assets/images/laser/1.gif)
+
+![Test](../assets/images/laser/2.gif)

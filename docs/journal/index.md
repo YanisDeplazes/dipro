@@ -121,3 +121,7 @@ Die Formen wurden für das Bohren vorbereitet. An einem Teststück habe ich ausp
 Mit den Angelschnüren und den drehbaren Teilen habe ich die Komponenten miteinander verbunden. Wie genau die beiden Spiegelstücke miteinander verbunden werden, ist noch offen; ich könnte je nach Aufwand und Beständigkeit Kleber oder Klebeband verwenden.
 
 Am Wochenende werden basierend auf Tests und Optimierungen noch kleinere Anpassungen vorgenommen, damit die Installation nächste Woche richtig aufgebaut werden kann.
+
+## KW44 - Room Setup
+
+Beim Aufstellen der Spiegel entlang einer horizontalen Linie ist leider die Schnur gerissen, wodurch einige Spiegelstücke zu Boden fielen und beschädigt wurden. Deshalb musste improvisiert werden: Die noch intakten Spiegel wurden vertikal aufgehängt. Das führte jedoch dazu, dass der Hauptbeamer nicht mehr genutzt werden konnte. Daher wurde entschieden, den Beamer, der ursprünglich für die hintere Wand vorgesehen war, als Hauptbeamer zu verwenden. Mit einem Stativ funktionierte das gut – nun muss allerdings noch überlegt werden, wie die Projektion optimal umgesetzt werden kann.
